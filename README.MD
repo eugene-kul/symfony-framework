@@ -41,8 +41,7 @@
    ```
    
 3. Пакетные зависимости:
-- <a href="https://varnish-cache.org/docs/trunk/installation/index.html#install-index" target="_blank">Varnish</a>
-
+- [Varnish](https://varnish-cache.org/docs/trunk/installation/index.html#install-index)
 
 ## Функциональность
 
