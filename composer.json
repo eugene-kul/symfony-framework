@@ -1,0 +1,22 @@
+{
+    "name": "eugene/framework.com",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Barker\\": "vendor/barker/framework/src/Barker/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eugene",
+            "email": "kulikea@taxcom.ru"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^7.1",
+        "symfony/routing": "^7.1",
+        "symfony/http-kernel": "^7.1",
+        "symfony/event-dispatcher": "^7.1",
+        "symfony/dependency-injection": "^7.1"
+    }
+}
