@@ -29,6 +29,10 @@
 1. Запустите встроенный сервер Symfony:
    ```bash
    symfony server:start
+   
+   # or 
+   
+   php -S localhost:8000 -t public/
    ```
 
 2. Откройте браузер и перейдите по адресу:
