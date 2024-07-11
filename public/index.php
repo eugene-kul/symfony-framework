@@ -1,14 +1,12 @@
 <?php
 
-require_once __DIR__.'/../vendor/autoload.php';
+use Barker\Main\App;
 
-use Symfony\Component\HttpFoundation\Request;
+ini_set('display_errors', 1);
+error_reporting(-1);
 
-$routes = include __DIR__.'/../routes/web.php';
-$container = include __DIR__.'/../src/container.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-$request = Request::createFromGlobals();
-//$response = $container->get('app')->handle($request);
-$response = $container->get('appCache')->handle($request);
-
-$response->send();
+$app = new App();
+$app->getResponse()->send();
+dd($app);
